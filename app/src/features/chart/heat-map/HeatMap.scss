@@ -1,0 +1,154 @@
+@import "../../style/variable.scss";
+
+.heat-map-grid {
+  height: 350px !important;
+ 
+ 
+
+  .ag-theme-alpine {
+     --ag-header-cell-hover-background-color: #f2f4ff;
+    --ag-borders: none;
+    --ag-borders-row: 2px solid !important;
+    --ag-row-border-color: $standard-font-color-bold !important;
+  }
+
+  .ag-header-row-column-group>div:nth-child(1) {
+    background-color: #ffffff !important;
+  }
+
+
+  .ag-header-group-text {
+    font-size: $font-size-large;
+    font-family: $font-family-nato-sans-bold ;
+  }
+
+  .ag-header-group-cell-with-group {
+    background: #f2f4ff !important;
+    margin-right: 1px;
+    border-right: 3px solid $standard-font-color-bold;
+  }
+
+  .ag-cell-label-container {
+    font-family: $font-family-nato-sans-medium;
+    font-size: $font-size-medium !important;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #393939;
+  }
+
+  .ag-group-value {
+    font-family: $font-family-nato-sans-medium;
+    font-size: $font-size-medium !important;
+    font-style: normal;
+    font-weight: 600;
+    text-align: center;
+    color: #393939;
+  }
+
+  .ag-cell-value {
+    font-family: $font-family-nato-sans-medium;
+    font-style: normal;
+    font-weight: 600;
+    font-size: $font-size-medium !important;
+    text-align: center;
+    color: #0d1640;
+    background: #f4f4f4;
+    border-left: 2px solid $standard-font-color-bold;
+    border-right: 2px solid $standard-font-color-bold;
+    border-top: 2px solid $standard-font-color-bold;
+  }
+
+  .ag-header-group-cell-no-group {
+    background-color: $standard-font-color-bold;
+  }
+
+  .ag-header-group-cell-no-group:hover {
+    background-color: $standard-font-color-bold !important;
+  }
+
+  .ag-header-cell {
+    background-color: #fbfbfb;
+  }
+
+  .ag-header-cell:hover {
+    background-color: #fbfbfb !important;
+  }
+
+  .ag-header-row-column {
+    background-color: $standard-font-color-bold;
+    border: none;
+  }
+
+  .ag-header-viewport {
+    background: $standard-font-color-bold;
+  }
+}
+
+.block {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  margin-bottom: -3px;
+}
+
+.platform {
+  background: #d8dcff;
+}
+
+.technology {
+  background: #e8e9ff;
+}
+
+.plant {
+  background: #d5e9ff;
+}
+
+.resource {
+  background: #e8f3ff;
+}
+
+.sku {
+  border: 1px solid #d6dcfb;
+  background: #f1f8ff;
+}
+
+.above-95 {
+  background: #ff3f40;
+}
+
+.above-75 {
+  background: #ff6a6b;
+}
+
+.between-75 {
+  background: #fcaa54;
+}
+
+.between-50-75 {
+  background: #deedb2;
+}
+
+.lesthan-50 {
+  background: #9ed320
+}
+
+.category-title {
+  font-family: $font-family-nato-sans-medium;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size-small;
+  padding: 0rem 0rem 0rem 0.2rem;
+}
+
+.arrow-icon {
+  position: relative;
+  top: 4px;
+}
+
+.item-position {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}

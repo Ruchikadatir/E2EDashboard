@@ -1,0 +1,26 @@
+@mixin devices ($breakpoint) { 
+  
+    @if $breakpoint == fhd {    
+    @media only screen and (max-width: 1920px) {
+      @content;
+    }
+  }
+ 
+  @if $breakpoint == hdp {
+    @media only screen and (max-width: 1600px) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == hd {
+    @media only screen and (max-width: 1366px) {
+      @content;
+    }
+  }
+  
+  @if $breakpoint == sd {
+    @media only screen and (max-width: 1280px) {
+      @content;
+    }
+  }
+}

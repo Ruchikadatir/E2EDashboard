@@ -1,0 +1,79 @@
+{
+    "productionData": [
+        {
+            "itemId": "0MCR900000",
+            "itemDescription": "Ginger Body Scrub 50ML/1.7FLOZ",
+            "majorInventoryType": "Ingrident",
+            "highLevelGrouping": "Bottle/Jar",
+            "platform": "Jar Hot Pour",
+            "technology": "Lg.",
+            "plantName": "Melville",
+            "IEplant": "Internal",
+            "regionOfMake": "Americas",
+            "resource": "M1002827",
+            "resourceType": "Fill",
+            "productionQuantity": "1000",
+            "unitOfMeasure": "EA"
+        },
+        {
+            "itemId": "0MCR900001",
+            "itemDescription": "Face Wash 50ML/1.7FLOZ",
+            "majorInventoryType": "Ingrident",
+            "highLevelGrouping": "Bottle",
+            "platform": "Jar Hot Pour",
+            "technology": "Lg.",
+            "plantName": "Melville",
+            "IEplant": "Internal",
+            "regionOfMake": "UK",
+            "resource": "M1002828",
+            "resourceType": "Fill",
+            "productionQuantity": "2000",
+            "unitOfMeasure": "EA"
+        },
+        {
+            "itemId": "0MCR900002",
+            "itemDescription": "Face Cream 100ML/1.7FLOZ",
+            "majorInventoryType": "Ingrident",
+            "highLevelGrouping": "Bottle/Jar",
+            "platform": "Jar Hot Pour",
+            "technology": "Lg.",
+            "plantName": "Paris",
+            "IEplant": "Internal",
+            "regionOfMake": "France",
+            "resource": "M1002828",
+            "resourceType": "Fill",
+            "productionQuantity": "3000",
+            "unitOfMeasure": "EA"
+        },
+        {
+            "itemId": "0MCR900003",
+            "itemDescription": "Hair Cream 50ML/1.7FLOZ",
+            "majorInventoryType": "Ingrident",
+            "highLevelGrouping": "Bottle/Jar",
+            "platform": "Jar Hot Pour",
+            "technology": "Lg.",
+            "plantName": "Mumbai",
+            "IEplant": "Internal",
+            "regionOfMake": "India",
+            "resource": "M1002829",
+            "resourceType": "Fill",
+            "productionQuantity": "3000",
+            "unitOfMeasure": "EA"
+        },
+        {
+            "itemId": "0MCR900004",
+            "itemDescription": "Hair Gel 50ML/1.7FLOZ",
+            "majorInventoryType": "Ingrident",
+            "highLevelGrouping": "Bottle/Jar",
+            "platform": "Jar Hot Pour",
+            "technology": "Lg.",
+            "plantName": "Delhi",
+            "IEplant": "Internal",
+            "regionOfMake": "India",
+            "resource": "M1002830",
+            "resourceType": "Fill",
+            "productionQuantity": "3000",
+            "unitOfMeasure": "EA"
+        }
+    ]
+}

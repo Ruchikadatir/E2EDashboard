@@ -1,0 +1,54 @@
+//Gradient color
+$estee-header-color: linear-gradient(85.86deg,
+        #2d5dc6 -0.21%,
+        #18377b 23.16%,
+        #1d0a55 72.36%,
+        #10052e 108.65%,
+        #10052e 144.93%);
+$source-card-gradient: linear-gradient(105.76deg, rgba(32, 191, 226, 0.9) 39.33%, rgba(105, 207, 189, 0.9) 110.78%);
+$make-card-gradient: linear-gradient(106.33deg, rgba(96, 178, 255, 0.9) 1.75%, rgba(0, 26, 224, 0.9) 108%);
+
+$fulfill-card-gradient: linear-gradient(106.51deg, rgba(164, 84, 235, 0.9) 30.91%, rgba(56, 157, 230, 0.9) 177.2%, rgba(0, 26, 224, 0.9) 273.03%);
+
+//color
+
+$standard-font-color-light: #f8f8f8;
+$standard-font-color-bold: #ffffff;
+$estee-secondary-header-color: #f6f9ff;
+$estee-sufficiency-header-color: #f6f9ff;
+$estee-nav-color: #ffffff;
+$nav-text-color-active: #0d1640;
+$nav-text-color: #0d1640;
+$border-color: #e7f0ff;
+$nav-text-color-active: #09208c;
+$button-text-color: #f6f6f5;
+$chart-palceholder-backgroud-color: #fcfcff;
+$source-color: #20bfe2;
+$make-color: #223ee6;
+$fulfill-color: #a454eb;
+$nav-text-grey-color: #6d707e;
+
+
+//font family
+$font-family-nato-sans: "noto-sans-light";
+$font-family-nato-sans-medium: "noto-sans-medium";
+$font-family-nato-sans-bold: "noto-sans-bold";
+$font-family-optima: "optima";
+$font-family-optima-bold: "optima-bold";
+$font-family-open-sans: "Open Sans";
+
+//font size
+
+$font-size-large: 16px;
+$font-size-medium: 14px;
+$font-size-small: 13px;
+$font-size-xsmall: 12px;
+$font-size-xxsamll:10px;
+
+:export {
+    fontSizeLarge: $font-size-large;
+    fontSizeMedium: $font-size-medium;
+    fontSizeSmall: $font-size-small;
+    fontSizeXsmall: $font-size-xsmall ;
+    fontSizeXXsamll:$font-size-xxsamll;
+}

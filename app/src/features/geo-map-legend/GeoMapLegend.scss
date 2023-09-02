@@ -1,0 +1,83 @@
+@import "../style/variable.scss";
+@import "../style/mixins.scss";
+
+body {
+  --source-ing-color: #68d0cb;
+  --source-comp-color: rgba(104, 208, 203, 0.4);
+  --plant-comp-color: #223ee6;
+  --plant-fa-color: rgba(34, 62, 230, 0.4);
+  --tpm-comp-color: #7eb2ff;
+  --tpm-fa-color: rgba(126, 178, 255, 0.4);
+  --distribution-centre-color: #a454eb;
+  --affliate-dc-color: rgba(164, 84, 235, 0.4);
+}
+
+.nodeLegend {
+  border-radius: 4px;
+  background: #f6f9ff;
+  border: 1px solid #aecdfb;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  width: 16.5vw;
+  height: 184px;
+
+  @include devices(hd) {
+    width: 20vw;
+  }
+  @include devices(hdp) {
+    width: 20vw;
+  }
+}
+
+.legendHeader {
+  font-family: $font-family-nato-sans-bold;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #393939;
+  padding-bottom: 0.5rem;
+}
+
+.legend-tooltip > div {
+  margin: 0.5rem;
+  margin-left: 0px;
+}
+
+.legendInfo {
+  font-family: $font-family-nato-sans-medium;
+  font-size: 11px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+@mixin box($color, $borderColor) {
+  color: $color;
+  background-color: $color;
+  border: 1px solid $borderColor;
+}
+
+.colorBox {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-bottom: -3px;
+  border-radius: 4px;
+  @include box(var(--color), var(--borderColor));
+}
+
+.legendSpan {
+  font-family: $font-family-nato-sans-medium;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 0.25rem;
+  padding-bottom: -1rem;
+}

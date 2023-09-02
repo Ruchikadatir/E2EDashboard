@@ -1,0 +1,108 @@
+@import "../../../style/variable.scss";
+
+.secondary-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 60px;
+  left: 0px;
+  top: 0px;
+  background: $estee-secondary-header-color;
+  padding-left: 2.8rem;
+  padding-right: 2.8rem;
+
+  .ant-tabs-tab {
+    font-family: "optima";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.25rem;
+    color: $nav-text-color;
+  }
+
+  .card-container>.ant-tabs-card>.ant-tabs-nav::before {
+    display: none;
+  }
+
+  .card-container>.ant-tabs-card .ant-tabs-tab,
+  [data-theme="compact"] .card-container>.ant-tabs-card .ant-tabs-tab {
+    background: transparent;
+    border-color: transparent;
+  }
+
+  .card-container>.ant-tabs-card .ant-tabs-tab-active,
+  [data-theme="compact"] .card-container>.ant-tabs-card .ant-tabs-tab-active {
+    padding-left: 14px !important;
+    padding-right: 14px !important;
+    font-family: "Optima";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: $nav-text-color !important;
+    background: $standard-font-color-bold;
+    border: 1px solid $border-color;
+    border-color: $standard-font-color-bold;
+    box-shadow: inset 0px 4px 11px rgba(158, 180, 255, 0.3);
+  }
+
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: $nav-text-color;
+    text-shadow: 0 0 0.25px currentcolor;
+  }
+
+  .ant-tabs-card.ant-tabs-top>.ant-tabs-nav .ant-tabs-tab,
+  .ant-tabs-card.ant-tabs-top>div>.ant-tabs-nav .ant-tabs-tab {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .card-container>.ant-tabs-card .ant-tabs-tab-active {
+    border-bottom: 0.1px #ffffff !important;
+    background-color: #ffffff !important;
+  }
+
+  [data-theme="dark"] .cardContainer>.ant-tabs-card .ant-tabs-content>.ant-tabs-tabpane {
+    background: #141414;
+  }
+
+  [data-theme="dark"] .card-container>.ant-tabs-card .ant-tabs-tab-active {
+    background: #141414;
+    border-color: #8080cf;
+    border-bottom: 8px;
+  }
+
+  .ant-tabs>.ant-tabs-nav .ant-tabs-nav-list,
+  .ant-tabs>div>.ant-tabs-nav .ant-tabs-nav-list {
+    position: relative;
+    display: flex;
+    transition: transform 0.3s;
+    margin-top: 36px;
+  }
+
+  .img-conatainer {
+    display: flex;
+    gap: 0.7rem;
+    margin-top: 18px;
+  }
+
+  .notification {
+    width: 20px;
+    height: 21px;
+    color: $nav-text-color;
+  }
+
+  .ellipse {
+    position: relative;
+    width: 0.5rem;
+    bottom: 5px;
+    right: 16px;
+  }
+
+  .alert-text {
+    position: relative;
+    right: 10px;
+    font-family: "optima";
+    font-weight: 400;
+    font-size: 1.125rem;
+    color: $nav-text-color;
+  }
+}

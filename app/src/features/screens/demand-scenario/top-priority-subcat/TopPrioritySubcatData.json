@@ -1,0 +1,80 @@
+{
+    "data": {
+        "upside": [
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Bobbi Brown",
+                "region": "UK",
+                "upside": 1550000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Mac",
+                "region": "NA",
+                "upside": 560000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "La Mer",
+                "region": "China",
+                "upside": 59000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Clinique",
+                "region": "LATAM",
+                "upside": 590000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Too Faced",
+                "region": "NA",
+                "upside": 89000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "SmashBox",
+                "region": "UK",
+                "upside": 8800
+            }
+        ],
+        "downside": [
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Bobbi Brown",
+                "region": "UK",
+                "downside": 1550000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Mac",
+                "region": "NA",
+                "downside": 560000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "La Mer",
+                "region": "China",
+                "downside": 590000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Clinique",
+                "region": "LATAM",
+                "downside": 590000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "Too Faced",
+                "region": "NA",
+                "downside": 89000
+            },
+            {
+                "prioritySubCat": "Juices",
+                "brand": "SmashBox",
+                "region": "UK",
+                "downside": 8800
+            }
+        ]
+    }
+}

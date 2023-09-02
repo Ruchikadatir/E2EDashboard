@@ -1,0 +1,52 @@
+{
+    "materialPOs": [
+        {
+            "material": "0MCR900000",
+            "materialName": "Ginger Body Scrub",
+            "materialType": "Ingrident",
+            "SupplierName": "Rose",
+            "totalQuantity": 1000,
+            "unitOfMeasure": "$100"
+        },
+        {
+            "material": "0MCR900001",
+            "materialName": "Face Wash",
+            "materialType": "Ingrident",
+            "SupplierName": "Rose",
+            "totalQuantity": 2000,
+            "unitOfMeasure": "$200"
+        },
+        {
+            "material": "0MCR900003",
+            "materialName": "Face Cream",
+            "materialType": "Ingrident",
+            "SupplierName": "Turmeric",
+            "totalQuantity": 1400,
+            "unitOfMeasure": "$500"
+        },
+        {
+            "material": "0MCR900004",
+            "materialName": "Hair Color",
+            "materialType": "Ingrident",
+            "SupplierName": "Olive",
+            "totalQuantity": 1400,
+            "unitOfMeasure": "$500"
+        },
+        {
+            "material": "0MCR900005",
+            "materialName": "Hair Cream",
+            "materialType": "Ingrident",
+            "SupplierName": "Natural",
+            "totalQuantity": 1500,
+            "unitOfMeasure": "$800"
+        },
+        {
+            "material": "0MCR900009",
+            "materialName": "Hair Gel",
+            "materialType": "Ingrident",
+            "SupplierName": "Natural",
+            "totalQuantity": 1500,
+            "unitOfMeasure": "$100"
+        }
+    ]
+}

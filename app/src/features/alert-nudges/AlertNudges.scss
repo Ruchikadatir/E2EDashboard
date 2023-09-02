@@ -1,0 +1,71 @@
+@import "../style/variable.scss";
+
+#nudges-modal {
+    box-sizing: border-box !important;
+    position: relative !important;
+    width: 600px !important;
+    height: 724px !important;
+    border: 0.5px solid #aecdfb !important;
+    border-radius: 8px !important;
+    padding: 2rem !important;
+
+
+}
+
+.data-modal {
+    .ant-modal-body {
+        padding: 5px !important;
+    }
+
+    .ant-modal-content {
+        background-color: rgba(215, 225, 251, 0.72) !important;
+        backdrop-filter: blur(20px) !important;
+    }
+
+    .ant-modal-footer {
+        border-top: none;
+
+    }
+}
+
+.e2e-nudeges {
+    align-items: center !important;
+}
+
+.nudges-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .nudges-label {
+        font-family: $font-family-nato-sans-medium !important;
+        font-style: normal;
+        font-weight: 500;
+        color: #0d1640;
+        line-height: 24px;
+        font-size: $font-size-large;
+        margin: 5px
+    }
+
+    .text-bold {
+        font-family: $font-family-nato-sans-medium !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #0d1640;
+        line-height: 24px;
+        font-size: $font-size-large;
+    }
+
+    .make-nudge {
+        font-family: $font-family-nato-sans-medium !important;
+        font-style: normal;
+        font-weight: 700;
+        color: #09208c;
+        line-height: 24px;
+        font-size: $font-size-large;
+    }
+
+
+
+}

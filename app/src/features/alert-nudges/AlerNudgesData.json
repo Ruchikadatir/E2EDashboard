@@ -1,0 +1,34 @@
+{
+    "data": {
+        "nudgeRegionalizationValues": [
+            {
+                "Sub_Product_line": "All La Mer",
+                "Revenue": 6326171697,
+                "Reg_%": 42.42
+            },
+            {
+                "Sub_Product_line": "All Advanced Night Repair",
+                "Revenue": 3222302917,
+                "Reg_%": 56.39
+            }
+        ],
+        "nudgeLeadtimeValues": [
+            {
+                "MATNR": "PG50010000",
+                "ITEM_DESCRIPTION": "ANR SYNCH MLT RCVR CMPLX 50ML/1.7FLOZ",
+                "TOTAL_REVENUE": 327232534.36,
+                "E2E_REV_DAYS": 377,
+                "E2E_PERCENT": "99%"
+            },
+            {
+                "MATNR": "PG50010000",
+                "ITEM_DESCRIPTION": "ANR SYNCH MLT RCVR CMPLX 50ML/1.7FLOZ",
+                "TOTAL_REVENUE": 290510341.22999996,
+                "E2E_REV_DAYS": 376,
+                "E2E_PERCENT": "99%"
+            }
+        ]
+    },
+    "statusCode": 200,
+    "message": "get Nudge values"
+}

@@ -1,0 +1,86 @@
+{
+  "projectedProdUnitVsCapacity": {
+    "year": [
+      "FY23",
+      "FY24"
+    ],
+    "24_5": [
+      1,
+      2
+    ],
+    "24_7": [
+      1,
+      2
+    ],
+    "efficiencyGain": [
+      1,
+      2
+    ],
+    "capex": [
+      1,
+      2
+    ],
+    "gap": [
+      1,
+      2
+    ],
+    "productionReq": [
+      3,
+      4
+    ]
+  },
+  "manlocProdReq": {
+    "top10": {
+      "plant&Resource": [
+        "keystone-l3man004",
+        "keystone-l3man005"
+      ],
+      "skincare": [
+        1,
+        2
+      ],
+      "makeup": [
+        1,
+        2
+      ],
+      "fragrance": [
+        1,
+        2
+      ],
+      "haircare": [
+        1,
+        2
+      ],
+      "others": [
+        1,
+        2
+      ]
+    },
+    "all": {
+      "plant&Resource": [
+        "keystone-l3man004",
+        "keystone-l3man005"
+      ],
+      "skincare": [
+        200,
+        500
+      ],
+      "makeup": [
+        700,
+        900
+      ],
+      "fragrance": [
+        100,
+        250
+      ],
+      "haircare": [
+        700,
+        900
+      ],
+      "others": [
+        100,
+        300
+      ]
+    }
+  }
+}

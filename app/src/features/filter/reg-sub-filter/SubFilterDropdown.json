@@ -1,0 +1,31 @@
+{
+    "materialType": [
+        {
+            "value": "ingredients",
+            "label": "Ingredients"
+        },
+        {
+            "value": "components",
+            "label": "Components"
+        }
+    ],
+    "productType": [
+        {
+            "value": "all",
+            "label": "All"
+        },
+        {
+            "value": "fert",
+            "label": "FERT"
+        },
+        {
+            "value": "halb",
+            "label": "HALB"
+        }
+        
+    ],
+    "defaultSelected":{
+        "source-to-make":"Ingredients",
+        "make-to-sale":"All"
+    }
+}

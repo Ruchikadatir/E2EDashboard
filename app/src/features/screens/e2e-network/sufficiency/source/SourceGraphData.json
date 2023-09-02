@@ -1,0 +1,60 @@
+{
+  "pmrGraphData": [
+    {
+      "product": "FY2023",
+      "Volume": 1100,
+      "Yoy Growth": 980,
+      "CAGR": -20
+    },
+    {
+      "product": "FY2024",
+      "Volume": 1042,
+      "Yoy Growth": 1153,
+      "CAGR": 40
+    },
+    {
+      "product": "FY2025",
+      "Volume": 988,
+      "Yoy Growth": 1287,
+      "CAGR": -30
+    },
+    { "product": "FY2026", "Volume": 823, "Yoy Growth": 845, "CAGR": 72 }
+  ],
+  "revenuepmrData": [
+    { "product": "FY2023", "Revenue": 8600, "Yoy Growth": 12800, "CAGR": -20 },
+    { "product": "FY2024", "Revenue": 4500, "Yoy Growth": 11000, "CAGR": 40 },
+    { "product": "FY2025", "Revenue": 3450, "Yoy Growth": 10870, "CAGR": -30 },
+    { "product": "FY2026", "Revenue": 2000, "Yoy Growth": 9800, "CAGR": 72 }
+  ],
+  "materialGroupGraphData": [
+    { "product": "Actuators", "Volume": 124, "CAGR": 72 },
+    { "product": "Bottles - Plastic", "Volume": 353, "CAGR": -20 },
+    { "product": "Injection Molded Con", "Volume": 467, "CAGR": 40 },
+    { "product": "Jars-Plastic Double", "Volume": 577, "CAGR": -30 },
+    { "product": "Chubby Stick", "Volume": 632, "CAGR": -30 },
+    { "product": "Forging", "Volume": 743, "CAGR": -30 },
+    { "product": "Deodorant Cases", "Volume": 853, "CAGR": -30 }
+  ],
+  "materialNameGraphData": [
+    { "product": "CARRIER X 3 MC PKG", "Volume": 123, "CAGR": 72 },
+    { "product": "BXT-DECO BTL EYE MU REMV", "Volume": 234, "CAGR": -20 },
+    { "product": "DIVIDER FOR CARR X  3 MC", "Volume": 364, "CAGR": 40 },
+    { "product": "ORIFICE REDUCER/PURITY S", "Volume": 477, "CAGR": -30 },
+    { "product": "SHIPPER", "Volume": 578, "CAGR": -30 },
+    { "product": "CAP", "Volume": 688, "CAGR": -30 },
+    { "product": "BOTTOM FOAM PAD", "Volume": 785, "CAGR": -30 }
+  ],
+  "supplierMixGraphData": [
+    { "product": "Pro Tech gredia Ltd", "Volume": 234, "CAGR": 72 },
+    { "product": "DKSH Benelux BV", "Volume": 346, "CAGR": -20 },
+    { "product": "Miyako Kagaku Co. Ltd", "Volume": 454, "CAGR": 40 },
+    { "product": "Barnets products Corporation", "Volume": 568, "CAGR": -30 },
+    { "product": "Druct.at", "Volume": 679, "CAGR": -30 },
+    { "product": "Lonza LLC", "Volume": 789, "CAGR": 30 },
+    { "product": "KAI Corporation", "Volume": 854, "CAGR": -30 }
+  ],
+  "example": {
+    "category": ["FY2023", "FY2024", "FY2025","FY2026","FY2027"],
+    "Revenue": [3500, 4600, 5500, 6450,7600]
+  }
+}

@@ -1,0 +1,56 @@
+@import "../src/features/style/mixins.scss";
+
+html {
+  font-size: 16px;
+
+  @include devices(hdp) {
+    font-size: 14px;
+  }
+
+  @include devices(hd) {
+    font-size: 13px;
+  }
+
+  @include devices(sd) {
+    font-size: 11px;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'noto-sans-light', 'noto-sans-bold', 'optima', 'optima-bold',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "noto-sans-bold";
+  src: url(./assets/noto_sans/NotoSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: "noto-sans-medium";
+  src: url(./assets/noto_sans/NotoSans-Medium.ttf);
+}
+
+@font-face {
+  font-family: "noto-sans-light";
+  src: url(./assets/noto_sans/NotoSans-Light.ttf);
+}
+
+@font-face {
+  font-family: "optima";
+  src: url(./assets/optima-lt/OptimaLTStd.ttf);
+}
+
+@font-face {
+  font-family: "optima-bold";
+  src: url(./assets/optima-lt/OptimaLTStd-Bold.ttf);
+}

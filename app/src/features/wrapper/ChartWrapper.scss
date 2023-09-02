@@ -1,0 +1,93 @@
+@import "../style/variable.scss";
+
+.wrapper {
+  border-radius: 10px !important;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #cbdeff;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(50px);
+  border-radius: 10px 10px 0px 0px;
+  padding-right: 2rem;
+
+ 
+  .ant-card-head {
+    border-bottom: none;
+    font-family: $font-family-nato-sans-bold;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #0d1640 !important;
+  }
+
+  .ant-card-head-title {
+    padding-bottom: 0px !important;
+  }
+
+  .icon-color {
+    color: #b7b7b7;
+  }
+
+  .checkbox {
+    position: relative;
+    top: -5px;
+  }
+
+  .download-pos {
+    position: relative;
+    top: -8px;
+  }
+}
+
+.sourcecard {
+  border-top: 3px solid #21bbdf;
+  margin-bottom: 1rem !important;
+}
+
+.makecard {
+  border-top: 3px solid $make-color !important;
+  margin-bottom: 1rem !important;
+}
+
+.fulfillcard {
+  border-top: 3px solid $fulfill-color !important;
+  margin-bottom: 1rem !important;
+}
+
+
+
+.nestedcard {
+  border-radius: 0px !important;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: none !important;
+  box-shadow: none !important;
+  backdrop-filter: blur(50px);
+  border-radius: 0px;
+}
+
+.ant-tooltip {
+  width: 300px !important;
+}
+
+.ant-tooltip-inner {
+  color: #0D1640 !important;
+  background-color: #B7B7B726 !important;
+  width: 266px !important;
+  font-size: 11px !important;
+  backdrop-filter: blur(60px) !important;
+  font-family: $font-family-nato-sans !important;
+  font-style: normal !important;
+  border: 0.5px solid #B7B7B7 !important;
+  border-radius: 4px !important;
+}
+
+.ant-tooltip-placement-bottomRight .ant-tooltip-arrow {
+  color: #B7B7B7 !important;
+}
+
+.info-pos {
+  margin-right: 1rem;
+}
+

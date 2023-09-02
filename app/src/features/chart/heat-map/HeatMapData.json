@@ -1,0 +1,113 @@
+{
+  "heatMap": [
+    {
+      "customId": 0,
+      "category": "platform",
+      "type": "Bottle/Jar",
+      "requirementFy23": 10,
+      "gapFy23": 10,
+      "cdFy23": 10,
+      "DCFy23": 74,
+      "requirementFy24": 22,
+      "gapFy24": 23,
+      "cdFy24": 25,
+      "DCFy24": 70,
+      "requirementFy25": 36,
+      "cdFy25": 38,
+      "DCFy25": 74,
+      "childrens": [
+        {
+          "customId": 1,
+          "category": "technology",
+          "type": "Bottle tech",
+          "requirementFy23": 10,
+          "gapFy23": 10,
+          "cdFy23": 10,
+          "DCFy23": 85,
+          "requirementFy24": 22,
+          "gapFy24": 23,
+          "cdFy24": 25,
+          "DCFy24": 90,
+          "requirementFy25": 36,
+          "gapFy25": 37,
+          "cdFy25": 38,
+          "DCFy25": 55,
+          "childrens": [
+            {
+              "customId": 2,
+              "category": "plant",
+              "type": "Bottle plant",
+              "requirementFy23": 10,
+              "gapFy23": 10,
+              "cdFy23": 10,
+              "DCFy23": 90,
+              "requirementFy24": 22,
+              "gapFy24": 23,
+              "cdFy24": 25,
+              "DCFy24": 2,
+              "requirementFy25": 36,
+              "gapFy25": 37,
+              "cdFy25": 38,
+              "DCFy25": 72,
+              "childrens": [
+                {
+                  "customId": 3,
+                  "category": "resource",
+                  "type": "Bottle resource",
+                  "requirementFy23": 10,
+                  "gapFy23": 10,
+                  "cdFy23": 10,
+                  "DCFy23": 30,
+                  "requirementFy24": 22,
+                  "gapFy24": 23,
+                  "cdFy24": 25,
+                  "DCFy24": 50,
+                  "requirementFy25": 36,
+                  "gapFy25": 37,
+                  "cdFy25": 38,
+                  "DCFy25": 90
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "customId": 4,
+      "category": "platform",
+      "type": "Bottle",
+      "requirementFy23": 10,
+      "gapFy23": 10,
+      "cdFy23": 10,
+      "DCFy23": 90,
+      "requirementFy24": 22,
+      "gapFy24": 23,
+      "cdFy24": 25,
+      "DCFy24": 70,
+      "requirementFy25": 36,
+      "gapFy25": 37,
+      "cdFy25": 38,
+      "DCFy25": 50,
+      "childrens": [
+        {
+          "customId": 5,
+          "category": "technology",
+          "type": "Bottle tech",
+          "requirementFy23": 10,
+          "gapFy23": 10,
+          "cdFy23": 10,
+          "DCFy23": 50,
+          "requirementFy24": 22,
+          "gapFy24": 23,
+          "cdFy24": 25,
+          "DCFy24": 78,
+          "requirementFy25": 36,
+          "gapFy25": 37,
+          "cdFy25": 38,
+          "DCFy25": 85
+        }
+      ]
+    }
+  ]
+}

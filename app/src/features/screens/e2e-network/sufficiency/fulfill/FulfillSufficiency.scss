@@ -1,0 +1,48 @@
+@import "../../../../style/variable.scss";
+
+.fulfill-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background: $estee-secondary-header-color;
+  border-top: 2px solid $estee-secondary-header-color;
+  background-image: url("../../../../../assets/fulfillBg.png");
+  background-position-y: -1%;
+  background-position-x: 30%;
+
+  .filter-container {
+    margin-top: 1.5rem;
+    z-index: 1;
+  }
+
+  .desired-growth-container {
+    position: relative;
+    top: -20px;
+    z-index: 1;
+  }
+
+  .legend-container {
+    position: relative;
+    z-index: 1;
+    width: 318px;
+  }
+
+  .fulfill {
+    position: relative !important;
+    top: -30rem !important;
+    margin: 0rem 0rem 0rem 0rem !important;
+  }
+
+  .row-container {
+    position: relative;
+    top: -24rem;
+  }
+
+  .fulfillcard {
+    .y-axisTitle {
+      top: 260px !important;
+    }
+  }
+}

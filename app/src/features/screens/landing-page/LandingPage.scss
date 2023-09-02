@@ -1,0 +1,215 @@
+@import "../../style/variable.scss";
+
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  position: absolute;
+  width: max-content;
+  height: max-content;
+  background: #FFFFFF;
+  border: 12px solid #000000;
+}
+
+
+.heading {
+  margin-top: 1.5em;
+  margin-left: 1rem;
+  width: max-content;
+  height: max-content;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2%;
+  /* identical to box height, or 120% */
+  color: #1E1E20;
+}
+
+.sufficiency-panel {
+  align-items: center;
+  background: #EDEDFC;
+  border: 1em;
+  border-radius: 10px;
+}
+
+.notification-panel {
+  margin-left: 1rem;
+}
+
+.icon {
+  left: 0.25rem;
+  right: 50.73%;
+  border: 0.25rem solid #7AD978;
+  margin: 0.2rem;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 0.05rem;
+}
+
+.supplier_icon {
+  left: 0.25rem;
+  right: 50.73%;
+  border: 0.01rem solid #E8635E;
+  background: #E8635E;
+  margin: 0.2rem;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 0.05rem;
+  margin-right: 0.8rem;
+}
+
+.region_icon {
+  left: 0.25rem;
+  right: 50.73%;
+  border: 0.25rem solid #4A85E0;
+  margin: 0.2rem;
+  border-radius: 50%;
+  background-clip: content-box;
+  padding: 0.05rem;
+}
+
+.button {
+  justify-content: center;
+  align-items: center;
+  color: #7373A9;
+  border: 0.5px solid #7373A9;
+  background: #D8D8FF;
+
+  margin-left: 10rem;
+}
+
+.tab-class {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin: 0.5rem;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #000000
+}
+
+.sourceIcon {
+  mix-blend-mode: multiply;
+  transform: matrix(-0.93, -0.36, -0.36, 0.93, 0, 0);
+}
+
+.rectangle {
+  box-sizing: border-box;
+  position: absolute;
+  width: 397px;
+  height: 64px;
+  left: 1428px;
+  top: 150px;
+  background: #F4FCFE;
+  mix-blend-mode: normal;
+  border: 1px solid #1FBCDF;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.clearspace {
+  padding: 3rem;
+}
+
+.row {
+  margin: 2rem;
+
+}
+
+.column {
+  border-radius: 6px 6px 6px 6px;
+  width: 18rem;
+  padding: 0.1%;
+  border: 1em solid #F7F7FF;
+
+
+}
+
+.column1 {
+  width: 17rem;
+  margin-bottom: 1rem;
+  height: 2rem;
+  background: #F4FCFE;
+  mix-blend-mode: normal;
+  border: 1px solid #1FBCDF;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.column2 {
+  width: 17rem;
+  margin-bottom: 1rem;
+  background: #FBF7FE;
+  mix-blend-mode: normal;
+  border: 1px solid #A454EB;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  border-radius: 10px;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.column3 {
+  background: #FBF7FE;
+  margin-bottom: 1rem;
+  width: 17rem;
+  mix-blend-mode: normal;
+  border: 1px solid #A454EB;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+  font-family: 'Optima';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.alerts {
+  background: rgba(252, 252, 255, 0.6);
+  mix-blend-mode: normal;
+  border: 1px solid #DEDEDE;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 16px;
+  margin-left: 5rem;
+}
+
+.Legends {
+  margin-top: 2rem;
+  background: rgba(252, 252, 255, 0.9);
+  mix-blend-mode: normal;
+  box-shadow: 0px 4px 23px -8px rgba(56, 106, 235, 0.4);
+  backdrop-filter: blur(9px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 10px;
+}
+
+.Legends-icons {
+  left: 74.94%;
+  right: 24.73%;
+  top: 90.17%;
+  bottom: 9.48%;
+  background: #E8635E;
+  border: 0.01rem solid #E8635E;
+  border-radius: 50%;
+  background-clip: content-box;
+  margin-right: 0.5rem;
+}

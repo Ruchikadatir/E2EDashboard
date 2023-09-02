@@ -1,0 +1,281 @@
+@import "../style/variable.scss";
+
+.barChartFilterContainer {
+  padding: 2rem;
+  box-sizing: border-box;
+  background: rgba(246, 249, 255, 0.6);
+  border: 1px solid #AECDFB;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+
+  .ant-select-multiple {
+    .ant-select-selection-item {
+      font-family: $font-family-nato-sans !important;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 12px;
+      font-weight: 400;
+      color: #393939;
+      background: #EFF5FE !important;
+
+      mix-blend-mode: multiply;
+      backdrop-filter: blur(50px);
+      /* Note: backdrop-filter has minimal browser support */
+      border-radius: 10px;
+    }
+  }
+
+  .ant-select-selector {
+    font-family: $font-family-nato-sans !important;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 12px;
+    font-weight: 400;
+    /* Note: backdrop-filter has minimal browser support */
+    border-radius: 10px;
+  }
+
+  .ant-select-single {
+    .ant-select-selection-item {
+      font-family: $font-family-nato-sans !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      font-weight: 400;
+      background: #FFFFFF !important;
+      /* Note: backdrop-filter has minimal browser support */
+      border-radius: 10px;
+    }
+
+  }
+}
+
+.chip-wrapper {
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: rgba(56, 106, 235, 0.2);
+  mix-blend-mode: multiply;
+  border: 1px solid #AECDFB;
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+  font-family: $font-family-nato-sans !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  padding: 0.35% !important;
+  padding-right: 0.7% !important;
+  margin-right: 0.4% !important;
+}
+
+.filterChip {
+
+  z-index: 1;
+  background: rgba(56, 106, 235, 0.2) !important;
+  mix-blend-mode: multiply !important;
+  border: 1px solid #AECDFB !important;
+  backdrop-filter: blur(50px) !important;
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px !important;
+  font-family: $font-family-nato-sans !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  margin: 0.5% !important;
+  padding: 0.5%;
+}
+
+.filter-button {
+  display: flex !important;
+  justify-content: space-evenly !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  width: 108px !important;
+  height: 40px !important;
+  background: #09208c !important;
+  box-shadow: 2px 3px 7px -4px #3854eb !important;
+  border-radius: 4px !important;
+  text-align: center !important;
+
+  .span {
+    display: inline-block;
+    padding-top: 15px !important;
+    font-family: $font-family-nato-sans !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+    color: $button-text-color !important;
+    padding: 0.5rem;
+  }
+}
+
+.clearFilterButton {
+  background-color: #09208C !important;
+  box-shadow: 2px 3px 7px -4px #3854EB !important;
+
+}
+
+.clearButtonText {
+  color: #B7B7B7;
+  font-family: $font-family-nato-sans !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.applyFilterButton {
+  background-color: #09208C !important;
+  box-shadow: 2px 3px 7px -4px #3854EB !important;
+
+}
+
+.applyButtonText {
+  color: #FFFFFF;
+  font-family: $font-family-nato-sans !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.filterTitle {
+  font-family: $font-family-nato-sans !important;
+  font-style: normal;
+  font-weight: 400;
+  color: #393939;
+  line-height: 24px;
+
+}
+
+
+#common-filter {
+  box-sizing: border-box !important;
+  position: relative !important;
+  width: 877px !important;
+  height: 724px !important;
+  border: 0.5px solid #aecdfb !important;
+  border-radius: 8px !important;
+  padding: 2rem !important;
+}
+
+.data-filter {
+  .ant-modal-content {
+    background-color: rgba(215, 225, 251, 0.72) !important;
+    backdrop-filter: blur(40px) !important;
+  }
+
+  .ant-modal-footer {
+    border-top: none;
+  }
+
+  .ant-btn[disabled] {
+    background-color: #d9e6ff !important;
+  }
+
+  .ant-select-selection-placeholder {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+
+    color: rgba(13, 22, 64, 0.6);
+  }
+
+  .ant-divider-horizontal.ant-divider-with-text {
+    border-top: 0;
+    border-top-color: transparent;
+  }
+
+  .ant-select-arrow {
+    color: #0d1640;
+  }
+}
+
+.search-input {
+  box-sizing: border-box !important;
+  width: 277px !important;
+  height: 36px !important;
+  background: #f6f9ff !important;
+  border: 0.5px solid #a8c8fb !important;
+  border-radius: 19.5px !important;
+  margin-bottom: 2rem !important;
+}
+
+.clear-btn {
+  font-family: "noto-sans-light" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+
+  /* or 22px */
+  color: #09208c !important;
+}
+
+.clear-btn-chartFilter {
+  font-family: "noto-sans-light" !important;
+  font-style: normal !important;
+  font-weight: 700 !important;
+  font-size: 16px !important;
+  margin-top: 21% !important;
+  margin-left: 10% !important;
+  /* or 22px */
+  color: #09208c !important;
+}
+
+.text-size {
+  font-family: "Optima";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #09208c;
+  padding-bottom: 1%;
+  margin-top: 4.3%;
+}
+
+.add-margin {
+  margin-bottom: 1rem;
+}
+
+.drop-down-margin {
+  margin-bottom: 1rem;
+}
+
+.apply-filter-button {
+  font-family: "noto-sans-light" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #f6f6f5 !important;
+  letter-spacing: 0.5px;
+  width: 113px !important;
+  height: 41px !important;
+}
+
+.apply-Barchart-filter-button {
+  font-family: "noto-sans-light" !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  text-align: center !important;
+  color: #f6f6f5 !important;
+  letter-spacing: 0.5px;
+  width: 113px !important;
+  height: 41px !important;
+  margin-top: 12% !important;
+}
+
+.searchBar {
+  background: #F6F9FF;
+  border: 0.5px solid #A8C8FB;
+  border-radius: 19.5px;
+}
+
+.MuiPaper-rounded {
+  border-radius: 0%;
+}

@@ -1,0 +1,70 @@
+{
+  "statusCode": 200,
+  "message": "Success: source bar charts information",
+  "data": {
+    "projectedMaterialReq": {
+      "all": {
+        "volume": [100, 120, 130, 145],
+        "year": ["FY2023", "FY2024", "FY2025", "FY2026"],
+        "revenue": [300, 440, 560, 650]
+      }
+    },
+    "supplierMix": {
+      "volume": {
+        "big5": { "supplier": ["A", "B", "C", "D"], "value": [1, 2, 3, 4] },
+        "fast5": { "supplier": ["D", "E", "F", "G"], "value": [6, 7, 8, 9] },
+        "all": { "supplier": ["W", "X", "Y", "Z"], "value": [1, 2, 3, 4] }
+      },
+      "revenue": {
+        "big5": { "supplier": ["A", "B", "C", "D"], "value": [1, 2, 3, 4] },
+        "fast5": { "supplier": ["D", "E", "F", "G"], "value": [6, 7, 8, 9] },
+        "all": { "supplier": ["W", "X", "Y", "Z"], "value": [1, 2, 3, 4] }
+      },
+      "spent": {
+        "big5": { "supplier": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": { "supplier": ["D", "E", "F", "G"], "value": [6, 7, 8, 9] },
+        "all": { "supplier": ["W", "X", "Y", "Z"], "value": [1, 2, 3, 4] }
+      }
+    },
+    "materialGroup": {
+      "volume": {
+        "big5": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": {
+          "materialGroup": ["A", "B", "C,e,f,g"],
+          "value": [1, 2, 3, 9, 10]
+        },
+        "all": { "materialGroup": ["A", "B", "C"], "value": [11, 12, 13, 14] }
+      },
+      "revenue": {
+        "big5": {
+          "materialGroup": ["A", "B", "C", "e", "f"],
+          "value": [10, 12, 13, 15, 26]
+        },
+        "fast5": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] },
+        "all": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] }
+      },
+      "spent": {
+        "big5": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] },
+        "all": { "materialGroup": ["A", "B", "C"], "value": [1, 2, 3] }
+      }
+    },
+    "materialName": {
+      "volume": {
+        "big5": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": { "materialName": ["A", "B", "C"], "value": [1, 5, 8] },
+        "all": { "materialName": ["A", "B", "C"], "value": [10, 20, 30] }
+      },
+      "revenue": {
+        "big5": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] },
+        "all": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] }
+      },
+      "spent": {
+        "big5": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] },
+        "fast5": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] },
+        "all": { "materialName": ["A", "B", "C"], "value": [1, 2, 3] }
+      }
+    }
+  }
+}

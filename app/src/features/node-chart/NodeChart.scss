@@ -1,0 +1,73 @@
+@import "../style/variable.scss";
+@import "../style/mixins.scss";
+
+#nodemap {
+  margin-left: 10%
+}
+
+.node circle {
+  fill: #fff;
+  stroke: steelblue;
+  stroke-width: 3px;
+}
+
+.node text {
+  font: 12px sans-serif;
+}
+
+.node--internal text {
+  text-shadow: 0 1px 0 #fff, 0 -1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff;
+}
+
+.link {
+  fill: none;
+  stroke: #ccc;
+  stroke-width: 2px;
+}
+
+.link.highlighted {
+  stroke: #000000;
+}
+
+.label {
+  display: none
+}
+
+.node.selected .label {
+  display: block;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  padding: 2px;
+  font: 12px sans-serif;
+  border: 0px;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+.nodeBox {
+  width: 1600px;
+  height: 700px;
+}
+
+.label-text {
+  font-family: $font-family-nato-sans-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $font-size-large;
+  line-height: 24px;
+  color: #0d1640 !important;
+}
+
+.text-msg {
+  font-family: $font-family-nato-sans-medium;
+  font-style: normal;
+  font-weight: 500;
+  font-size: $font-size-medium;
+  color: #0d1640 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

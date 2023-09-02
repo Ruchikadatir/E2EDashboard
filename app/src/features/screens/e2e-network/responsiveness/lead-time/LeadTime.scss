@@ -1,0 +1,153 @@
+@import "../../../../style/style.scss";
+
+.lead-time-container {
+  width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background: $estee-secondary-header-color;
+  border-top: 2px solid $estee-secondary-header-color;
+
+  .filter-container {
+    margin-top: 1.5rem;
+    z-index: 1;
+  }
+
+  .distributioncard {
+    .y-axisTitle {
+      top: 257px;
+    }
+
+  }
+
+  .leadtimeBreakdownSwitch {
+    position: absolute;
+    z-index: 2;
+    right: 30px;
+  }
+
+  .LTBBarChart-container {
+    .barchart-YAXIS-toggle-btn {
+      border: none !important;
+      width: 30% !important;
+      height: 5% !important;
+      top: 158px !important;
+    }
+  }
+
+
+  .leadtimeBreakdowncard {
+    .y-axis {
+      z-index: 2 !important;
+    }
+  }
+
+  .prioritySubcategorycard {
+    .y-axisTitle {
+      top: 190px;
+      max-width: 20% !important;
+    }
+
+    .x-axisTitle {
+      margin-top: -5.1%;
+    }
+  }
+
+  .distribution-brand-card {
+    .y-axisTitle {
+      top: 130px !important;
+      left: 6px !important;
+      max-width: 20% !important;
+    }
+  }
+
+  .salesRegioncard {
+    .y-axisTitle {
+      top: 200px !important;
+    }
+
+    .x-axisTitle {
+      margin-top: 2.5%;
+    }
+  }
+
+  .ag-theme-alpine {
+    --ag-borders: none;
+    --ag-header-foreground-color: $standard-font-color-bold;
+    --ag-header-background-color: rgba(147, 173, 178, 0.14);
+    --ag-borders-row: 1px solid;
+    --ag-row-border-color: #e4e6e7;
+  }
+
+  .grid-card {
+    .ant-card-body {
+      padding: 0px !important;
+    }
+  }
+
+  .finished-good-grid {
+    height: 500px;
+
+    .ag-theme-alpine .ag-header,
+    .ag-header-cell-text {
+      font-family: $font-family-nato-sans-bold;
+      font-weight: 500;
+      font-size: $font-size-large !important;
+      color: $nav-text-color;
+    }
+
+    .ag-cell-value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-family-nato-sans-medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: $font-size-medium !important;
+      text-align: center;
+      color: #343536 !important;
+      white-space: break-spaces;
+      line-height: 16px;
+    }
+  }
+
+  .ag-cell-label-container {
+    font-family: $font-family-nato-sans-bold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: $font-size-large !important;
+    color: #0d1640;
+    line-height: 16px;
+    white-space: break-spaces;
+  }
+
+  .ant-radio-checked .ant-radio-inner {
+    border-color: #09208c !important;
+  }
+
+  .ant-radio-checked .ant-radio-inner:after {
+    background-color: #09208c;
+  }
+
+  .ant-radio-wrapper-checked {
+    font-family: $font-family-nato-sans-medium;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-size-medium;
+    color: rgba(0, 0, 0, 0.85);
+  }
+}
+
+.ant-switch {
+  border: 1px solid #0b228d !important;
+  background-image: none !important;
+  background-color: white !important;
+  margin-left: 5px !important;
+  padding: 10px !important;
+  margin-right: 5px !important;
+  margin-top: 4px !important;
+}
+
+.ant-switch-handle:before {
+  background-color: #0b228d !important;
+}

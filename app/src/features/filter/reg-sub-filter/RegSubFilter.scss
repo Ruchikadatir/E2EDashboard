@@ -1,0 +1,60 @@
+@import "../../style/variable.scss";
+
+.sub-filter-container {
+  display: flex;
+  align-items: center;
+
+  .toggle-btn-switch {
+    box-sizing: border-box;
+    background: #eff5fe;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #aecdfb;
+    box-shadow: 2px 3px 16px rgba(56, 106, 235, 0.4);
+    border-radius: 4px;
+    padding: 6px !important;
+    white-space: nowrap;
+
+    button[aria-pressed="true"] {
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $font-size-medium;
+      color: #09208c !important;
+      background: #ffffff;
+      border: 1px solid #aecdfb !important;
+      border-radius: 4px;
+      text-transform: none !important;
+    }
+
+    button[aria-pressed="false"] {
+      font-family: $font-family-nato-sans-medium !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: $font-size-medium;
+      color: #3c4466;
+      text-transform: none !important;
+    }
+  }
+
+  .dropdown-container {
+    width: 200px;
+    margin-left: 3rem;
+    margin-bottom: 0.5rem;
+
+    .reg-dropdown-container,
+    .ant-select-selection-item {
+      font-family: $font-family-nato-sans-medium !important;
+      font-style: normal !important;
+      font-weight: 400 !important;
+      font-size: $font-size-medium !important;
+      color: #0D1640 !important;
+    }
+
+
+
+  }
+ 
+
+
+}

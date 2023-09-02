@@ -1,0 +1,380 @@
+{
+  "ProductionSites": {
+    "PSRSource": {
+      "All": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [23, 34, 43, 65, 76, 68, 78, 46],
+          "Europe": [45, 67, 76, 87, 96, 24, 87, 67],
+          "Asia": [78, 57, 46, 24, 49, 45, 87, 76]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [23, 34, 54, 65, 76, 68, 78, 46],
+          "Europe": [45, 67, 76, 87, 98, 24, 87, 67],
+          "Asia": [78, 57, 46, 24, 76, 45, 87, 56]
+        }
+      },
+      "Europe": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [450, 347, 434, 656, 763, 685, 783, 453],
+          "Europe": [490, 675, 763, 875, 966, 244, 874, 676],
+          "Asia": [780, 575, 465, 246, 494, 454, 876, 764]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [232, 344, 543, 655, 763, 685, 784, 465],
+          "Europe": [454, 673, 765, 837, 958, 993, 997, 898],
+          "Asia": [708, 597, 406, 294, 767, 457, 897, 856]
+        }
+      },
+      "Americas": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [231, 342, 431, 645, 765, 648, 678, 446],
+          "Europe": [454, 676, 764, 876, 964, 246, 874, 667],
+          "Asia": [378, 557, 346, 524, 349, 545, 387, 476]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [323, 345, 545, 653, 765, 638, 728, 436],
+          "Europe": [485, 677, 776, 877, 978, 248, 877, 967],
+          "Asia": [778, 587, 486, 274, 768, 475, 887, 586]
+        }
+      },
+      "Asia": {
+        "Units": {
+          "Category": [
+            "Japan",
+            "China",
+            "Indonesia",
+            "Thailand",
+            "South Korea",
+            "Vietnam",
+            "Singapore",
+            "Hong Kong"
+          ],
+          "Americas": [231, 342, 431, 645, 765, 648, 678, 446],
+          "Europe": [454, 676, 764, 876, 964, 246, 874, 667],
+          "Asia": [378, 557, 346, 524, 349, 545, 387, 476]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [323, 345, 545, 653, 765, 638, 728, 436],
+          "Europe": [485, 677, 776, 877, 978, 248, 877, 967],
+          "Asia": [778, 587, 486, 274, 768, 475, 887, 586]
+        }
+      }
+    },
+    "PSRSales": {
+      "All": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Hilmount",
+            "Hilmount"
+          ],
+          "Americas": [123, 134, 143, 165, 176, 168, 178, 146],
+          "Europe": [245, 267, 276, 287, 296, 224, 287, 267],
+          "Asia": [378, 357, 346, 324, 349, 345, 387, 376]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [203, 304, 504, 605, 706, 608, 708, 406],
+          "Europe": [450, 670, 760, 870, 980, 240, 870, 670],
+          "Asia": [780, 570, 460, 240, 760, 450, 870, 560]
+        }
+      },
+      "Europe": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [405, 370, 440, 566, 663, 785, 883, 953],
+          "Europe": [390, 475, 563, 675, 666, 444, 874, 976],
+          "Asia": [480, 575, 665, 746, 894, 954, 1076, 1164]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [232, 344, 543, 655, 763, 685, 784, 465],
+          "Europe": [454, 673, 765, 837, 958, 993, 997, 898],
+          "Asia": [708, 597, 406, 294, 767, 457, 897, 856]
+        }
+      },
+      "Americas": {
+        "Units": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [231, 342, 431, 645, 765, 648, 678, 446],
+          "Europe": [454, 676, 764, 876, 964, 246, 874, 667],
+          "Asia": [378, 557, 346, 524, 349, 545, 387, 476]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [323, 345, 545, 653, 765, 638, 728, 436],
+          "Europe": [485, 677, 776, 877, 978, 248, 877, 967],
+          "Asia": [778, 587, 486, 274, 768, 475, 887, 586]
+        }
+      },
+      "Asia": {
+        "Units": {
+          "Category": [
+            "Japan",
+            "China",
+            "Indonesia",
+            "Thailand",
+            "South Korea",
+            "Vietnam",
+            "Singapore",
+            "Hong Kong"
+          ],
+          "Americas": [231, 342, 431, 645, 765, 648, 678, 446],
+          "Europe": [454, 676, 764, 876, 964, 246, 874, 667],
+          "Asia": [378, 557, 346, 524, 349, 545, 387, 476]
+        },
+        "FG $": {
+          "Category": [
+            "Melville",
+            "Hilmount",
+            "Oakland",
+            "Aiden",
+            "Agincourt",
+            "APAC Hub",
+            "Blaine",
+            "Hilmount"
+          ],
+          "Americas": [323, 345, 545, 653, 765, 638, 728, 436],
+          "Europe": [485, 677, 776, 877, 978, 248, 877, 967],
+          "Asia": [778, 587, 486, 274, 768, 475, 887, 586]
+        }
+      }
+    }
+  },
+  "Regionalization": {
+    "RegionalizationMG": {
+      "All": {
+        "Material Group": [
+          "Jars - Plastic",
+          "Cap",
+          "Bottles",
+          "Tottle",
+          "Inection Molded",
+          "Injection Sets"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [14000, 10000, 8000, 6000, 4000, 2500]
+      },
+      "<50%": {
+        "Material Group": [
+          "Jars - Plastic",
+          "Cap",
+          "Bottles",
+          "Tottle",
+          "Inection Molded",
+          "Injection Sets"
+        ],
+        "Regionalized": [12400, 9400, 8400, 7400, 6400, 4400],
+        "Non-Regionalized": [14000, 10000, 8000, 6000, 4000, 2500],
+        "%Regionalized": [70, 67, 56, 40, 47, 55],
+        "%Non-Regionalized": [30, 36, 44, 60, 53, 45]
+      },
+      "50-75%": {
+        "Material Group": [
+          "Jars - Plastic",
+          "Cap",
+          "Bottles",
+          "Tottle",
+          "Inection Molded",
+          "Injection Sets"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [13000, 9800, 8600, 6700, 4600, 3500],
+        "%Regionalized": [80, 67, 56, 40, 47, 43],
+        "%Non-Regionalized": [20, 36, 44, 60, 53, 57]
+      },
+      ">75%": {
+        "Material Group": [
+          "Jars - Plastic",
+          "Cap",
+          "Bottles",
+          "Tottle",
+          "Inection Molded",
+          "Injection Sets"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [13500, 11100, 7600, 5600, 4400, 3500],
+        "%Regionalized": [80, 67, 56, 40, 47, 43],
+        "%Non-Regionalized": [20, 36, 44, 60, 53, 57]
+      }
+    },
+    "RegionalizationPSc": {
+      "All": {
+        "Material Group": [
+          "Toners/Clariyers",
+          "Cleanser",
+          "Foundation",
+          "Eye Shadow",
+          "Lip Treatment",
+          "Moisturizer"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [14000, 10000, 8000, 6000, 4000, 2500],
+        "%Regionalized": [80, 67, 56, 40, 47, 43],
+        "%Non-Regionalized": [20, 36, 44, 60, 53, 57]
+      },
+      "<50%": {
+        "Material Group": [
+          "Toners/Clariyers",
+          "Cleanser",
+          "Foundation",
+          "Eye Shadow",
+          "Lip Treatment",
+          "Moisturizer"
+        ],
+        "Regionalized": [12400, 9400, 8400, 7400, 6400, 4400],
+        "Non-Regionalized": [14000, 10000, 8000, 6000, 4000, 2500],
+        "%Regionalized": [70, 67, 56, 40, 47, 55],
+        "%Non-Regionalized": [30, 36, 44, 60, 53, 45]
+      },
+      "50-75%": {
+        "Material Group": [
+          "Toners/Clariyers",
+          "Cleanser",
+          "Foundation",
+          "Eye Shadow",
+          "Lip Treatment",
+          "Moisturizer"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [13000, 9800, 8600, 6700, 4600, 3500],
+        "%Regionalized": [80, 67, 56, 40, 47, 43],
+        "%Non-Regionalized": [20, 36, 44, 60, 53, 57]
+      },
+      ">75%": {
+        "Material Group": [
+          "Toners/Clariyers",
+          "Cleanser",
+          "Foundation",
+          "Eye Shadow",
+          "Lip Treatment",
+          "Moisturizer"
+        ],
+        "Regionalized": [12000, 9000, 8000, 7000, 6000, 4000],
+        "Non-Regionalized": [13500, 11100, 7600, 5600, 4400, 3500],
+        "%Regionalized": [80, 67, 56, 40, 47, 43],
+        "%Non-Regionalized": [20, 36, 44, 60, 53, 57]
+      }
+    }
+  }
+}

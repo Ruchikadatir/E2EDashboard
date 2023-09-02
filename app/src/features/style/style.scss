@@ -1,0 +1,45 @@
+@import "./variable.scss";
+
+.custom-button {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    color: $button-text-color;
+
+  }
+
+  .ant-btn-primary {
+    border-color: $nav-text-color-active !important;
+    background: $nav-text-color-active !important;
+  }
+  .ant-btn[disabled] {
+    background-color: #6d707e !important ;
+  }
+  .right-col-border {
+    border-right: 2px solid #d4e4ff !important;
+  }
+
+  .common-grid-style {
+    height: 500px;
+
+    .ag-theme-alpine .ag-header,
+    .ag-header-cell {
+        font-family: $font-family-nato-sans-bold;
+        font-weight: 500;
+        font-size: $font-size-large;
+        color: $nav-text-color;
+    }
+
+    .ag-cell-value {
+        font-family: $font-family-nato-sans-medium;
+        font-style: normal;
+        font-weight: 400;
+        font-size: $font-size-medium !important;
+        text-align: center;
+        color: #343536 !important;
+    }
+}

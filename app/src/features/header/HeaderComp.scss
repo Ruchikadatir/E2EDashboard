@@ -1,0 +1,57 @@
+@import "../style/variable.scss";
+
+.header-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 70px;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  left: 0px;
+  top: 0px;
+  background: $estee-header-color;
+
+  .header-logo {
+    flex: 1;
+  }
+
+  .esstLogo {
+    max-width: 30vw;
+    min-height: 29px;
+    margin-top: 12px;
+  }
+
+  .nav-container {
+    flex: 1 3;
+    margin-top: 1.8rem;
+    letter-spacing: 1px;
+  }
+
+  .nav-active {
+    color: $standard-font-color-bold;
+    font-family: $font-family-nato-sans;
+    font-size: 1.25rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 1rem;
+    border-bottom: 0.31rem solid $standard-font-color-bold;
+    mix-blend-mode: normal;
+  }
+
+  .link,
+  .link:hover {
+    font-family: $font-family-nato-sans;
+    color: $standard-font-color-light;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 1rem;
+  }
+
+  .icon-container {
+    display: flex;
+    gap: 1.5rem;
+    margin-top: 8px;
+  }
+}

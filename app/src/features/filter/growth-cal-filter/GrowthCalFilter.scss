@@ -1,0 +1,58 @@
+@import "../../style/variable.scss";
+.demand-sub-filter-container {
+  display: flex;
+  align-items: center;
+  .filter-label {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #0d1640;
+    margin-right: 0.5rem;
+  }
+  .toggle-btn-switch {
+    box-sizing: border-box;
+    background: #eff5fe;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    border: 1px solid #aecdfb;
+    box-shadow: 2px 3px 16px rgba(56, 106, 235, 0.4);
+    border-radius: 4px;
+    padding: 6px !important;
+    white-space: nowrap;
+    button[aria-pressed="true"] {
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      width: 80px;
+      color: #09208c !important;
+      background: #ffffff;
+      border: 1px solid #aecdfb !important;
+      border-radius: 4px;
+      text-transform: none !important;
+    }
+    button[aria-pressed="false"] {
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #3c4466;
+      width: 80px;
+      text-transform: none !important;
+    }
+  }
+
+  .add-margin {
+    margin-left: 1rem;
+
+  }
+  .dropdown-container {
+    width: 500px;
+    display: flex;
+    align-items: center;
+  }
+  .title-margin{
+    margin:1rem;
+  }
+}

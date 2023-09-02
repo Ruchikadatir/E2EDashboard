@@ -1,0 +1,130 @@
+@import "../../../../style/style.scss";
+
+.regionalization-container {
+  width: 100%;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  background: $estee-secondary-header-color;
+  border-top: 2px solid $estee-secondary-header-color;
+  background-image: url("../../../../../assets/sourceBg.png");
+
+
+  .barchart-YAXIS-toggle-btn {
+    border: none !important;
+    width: 30% !important;
+    height: 5% !important;
+    top: 20px !important;
+  }
+
+  .filter-container {
+    margin-top: 1.5rem;
+    z-index: 1;
+  }
+
+  .desired-growth-continer {
+    position: relative;
+    top: -20px;
+    z-index: 1;
+  }
+
+  .regionalizationcard {
+    .ant-card-body {
+      padding-bottom: 12px;
+      padding-top: 5px;
+    }
+
+    .dropdown-select {
+      position: relative;
+      top: 3px;
+    }
+
+    .x-axisTitle {
+       margin-top: -38%
+    }
+
+    .y-axisTitle {
+      top: 235px !important;
+    }
+  }
+
+  .legend-container {
+    position: relative;
+    z-index: 1;
+    width: 318px;
+  }
+
+  .regionalizationProductioncard {
+    .y-axis {
+      top: 130px !important;
+      left: -41px;
+    }
+
+    .dropdown-select {
+      position: relative;
+      top: -14px;
+    }
+    .x-axisTitle {
+      margin-bottom: -15%;
+    }
+  }
+
+  .regionalizational-charts {
+    margin-top: -15%;
+  }
+
+  .grid-card {
+    .ant-card-body {
+      padding: 0px !important;
+    }
+  }
+
+  .ag-theme-alpine {
+    --ag-header-foreground-color: $standard-font-color-bold;
+    --ag-header-background-color: rgba(147, 173, 178, 0.14);
+    --ag-borders: none;
+    --ag-borders-row: 1px solid;
+    --ag-row-border-color: #e4e6e7;
+  }
+
+  .finished-good-grid {
+    height: 500px;
+
+    .ag-theme-alpine .ag-header,
+    .ag-header-cell-text {
+      font-family: $font-family-nato-sans-bold;
+      font-weight: 500;
+      font-size: $font-size-large;
+      color: $nav-text-color;
+    }
+
+    .ag-cell-value {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: $font-family-nato-sans-medium;
+      font-style: normal;
+      font-weight: 500;
+      font-size: $font-size-medium !important;
+      text-align: center;
+      color: #343536 !important;
+      white-space: break-spaces;
+      line-height: 16px;
+    }
+  }
+
+  .ag-cell-label-container {
+    font-family: $font-family-nato-sans-bold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px !important;
+    color: #0d1640;
+    line-height: 16px;
+    white-space: break-spaces;
+  }
+
+  .dropdown-size {
+    width: 82px;
+    height: 30px;
+  }
+}

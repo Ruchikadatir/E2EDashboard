@@ -1,0 +1,60 @@
+{
+    "rowData": [
+        {
+            "material": "PYL5010000",
+            "materialName": "CAP",
+            "materialGroup": "Jars-Plastic",
+            "supplierName": "SMulti Packaging Sol.",
+            "supplierRegion": "Americas",
+            "plantName": "Melville",
+            "PDT": "04 Days",
+            "SLT": "92 Days",
+            "TLT": "45 Days",
+            "sourceToMakeRegionalized": "Y",
+            "sourcedUnits": "500M",
+            "CAGRGrowth%": "25%"
+        },
+        {
+            "material": "PYL5010002",
+            "materialName": "CAP",
+            "materialGroup": "Jars-Bottle",
+            "supplierName": "Packaging Sol.",
+            "supplierRegion": "Europe",
+            "plantName": "Germany",
+            "PDT": "03 Days",
+            "SLT": "80 Days",
+            "TLT": "40 Days",
+            "sourceToMakeRegionalized": "Y",
+            "sourcedUnits": "400M",
+            "CAGRGrowth%": "26%"
+        },
+        {
+            "material": "PYL5010003",
+            "materialName": "CAP",
+            "materialGroup": "Bottle",
+            "supplierName": "Packaging Sol.",
+            "supplierRegion": "Asia",
+            "plantName": "India",
+            "PDT": "04 Days",
+            "SLT": "81 Days",
+            "TLT": "41 Days",
+            "sourceToMakeRegionalized": "Y",
+            "sourcedUnits": "600M",
+            "CAGRGrowth%": "30%"
+        },
+        {
+            "material": "PYL5010005",
+            "materialName": "Metal",
+            "materialGroup": "Jars",
+            "supplierName": "Packaging Sol.",
+            "supplierRegion": "Asia",
+            "plantName": "India",
+            "PDT": "04 Days",
+            "SLT": "81 Days",
+            "TLT": "41 Days",
+            "sourceToMakeRegionalized": "Y",
+            "sourcedUnits": "600M",
+            "CAGRGrowth%": "30%"
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+@import "../style/variable.scss";
+@import "../style/mixins.scss";
+
+.cards-view {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 22vw !important;
+  height: 95px !important;
+  margin: 1rem 0rem 0rem 0rem !important;
+  padding-top: 20px !important;
+  padding-bottom: 15px !important;
+  box-sizing: border-box !important;
+  backdrop-filter: blur(6px) !important;
+  border-radius: 10px !important;
+
+  .ant-card-body {
+    padding-left: 15px !important;
+    padding-top: 15px !important;
+  }
+
+  @include devices(fhd) {
+    max-width: 20vw !important;
+  }
+
+  @include devices(hd) {
+    max-width: 23vw !important;
+  }
+
+  .list-item {
+    margin-left: 1.5rem;
+  }
+
+  .label-spacing {
+    margin-top: 10px;
+  }
+  .card-title {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 22px;
+  }
+
+  .volume {
+    width: 160px;
+  }
+  .card-content {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 0.875rem;
+    color: $chart-palceholder-backgroud-color;
+    line-height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  .units-display {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.3rem;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: $chart-palceholder-backgroud-color;
+    white-space: nowrap;
+  }
+
+  .percentage {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125rem;
+    line-height: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: $chart-palceholder-backgroud-color;
+    white-space: nowrap;
+  }
+
+  .arrowDown {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+  }
+
+  .arrowUp {
+    height: 16px;
+    width: 16px;
+    margin-right: 4px;
+    margin-bottom: 5px;
+  }
+  .card-img {
+    position: relative;
+    bottom: 4px;
+    width: 20px;
+  }
+  .fulfill-color {
+    color: $chart-palceholder-backgroud-color;
+  }
+  .make-color {
+    color: $chart-palceholder-backgroud-color;
+  }
+  .ant-card-bordered {
+    border: none !important;
+  }
+}
+
+.source {
+  border-top: 2.5px solid $source-color !important;
+  background: $source-card-gradient !important;
+}
+.make {
+  border-top: 2.5px solid $make-color !important;
+  background: $make-card-gradient !important;
+}
+.fulfill {
+  border-top: 2.5px solid $fulfill-color !important;
+  background: $fulfill-card-gradient !important;
+}

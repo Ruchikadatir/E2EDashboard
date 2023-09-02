@@ -1,0 +1,134 @@
+{
+    "data": {
+        "unitM": [
+            {
+                "region": "NA",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "UK",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "EMEA",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "APAC EX CHINA",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "CHINA",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "TR",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            },
+            {
+                "region": "LATAM",
+                "brandAmbitionFy23": 6,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 6,
+                "cdpFy24": 6,
+                "brandAmbitionFy25": 6,
+                "cdpFy25": 6
+            }
+        ],
+        "revenue":[
+            {
+                "region": "NA",
+                "brandAmbitionFy23": 8,
+                "cdpFy23": 9,
+                "brandAmbitionFy24": 3,
+                "cdpFy24": 2,
+                "brandAmbitionFy25": 1,
+                "cdpFy25": 0
+            },
+            {
+                "region": "UK",
+                "brandAmbitionFy23": 16,
+                "cdpFy23": 18,
+                "brandAmbitionFy24": 19,
+                "cdpFy24": 20,
+                "brandAmbitionFy25": 23,
+                "cdpFy25": 24
+            },
+            {
+                "region": "EMEA",
+                "brandAmbitionFy23": 26,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 27,
+                "cdpFy24":28,
+                "brandAmbitionFy25": 29,
+                "cdpFy25": 30
+            },
+            {
+                "region": "APAC EX CHINA",
+                "brandAmbitionFy23": 31,
+                "cdpFy23": 32,
+                "brandAmbitionFy24": 33,
+                "cdpFy24": 34,
+                "brandAmbitionFy25": 35,
+                "cdpFy25": 36
+            },
+            {
+                "region": "CHINA",
+                "brandAmbitionFy23": 37,
+                "cdpFy23": 38,
+                "brandAmbitionFy24": 39,
+                "cdpFy24": 40,
+                "brandAmbitionFy25": 41,
+                "cdpFy25": 43
+            },
+            {
+                "region": "TR",
+                "brandAmbitionFy23": 1,
+                "cdpFy23": 2,
+                "brandAmbitionFy24": 3,
+                "cdpFy24": 4,
+                "brandAmbitionFy25": 5,
+                "cdpFy25": 6
+            },
+            {
+                "region": "LATAM",
+                "brandAmbitionFy23": 9,
+                "cdpFy23": 6,
+                "brandAmbitionFy24": 4,
+                "cdpFy24": 3,
+                "brandAmbitionFy25": 2,
+                "cdpFy25": 1
+            }
+        ]
+    }
+}

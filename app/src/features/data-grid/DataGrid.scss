@@ -1,0 +1,32 @@
+@import "../style/variable.scss";
+
+.ag-header-cell-label,
+.ag-header-group-cell-label {
+  justify-content: center;
+  align-items: center;
+}
+
+.ag-theme-alpine {
+  --ag-header-height: 50px;
+  --ag-row-height: 50px;
+}
+.ag-theme-alpine .ag-icon-menu {
+  background: transparent url("../../assets/filter_list.png") center/contain
+    no-repeat;
+  color: transparent;
+}
+.ag-header-cell {
+  font-family: $font-family-nato-sans-bold;
+  font-weight: 500;
+  font-size: 12px;
+  color: $nav-text-color;
+}
+
+.ag-cell-value {
+  font-family: $font-family-nato-sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px !important;
+  text-align: center;
+  color: #343536 !important;
+}

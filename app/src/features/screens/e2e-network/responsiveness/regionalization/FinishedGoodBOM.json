@@ -1,0 +1,95 @@
+{
+    "rowData": [
+        {
+            "fgCode": "PYL5010001",
+            "FGItemDescription": "GINGER BODY SCRUB 50ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010072",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "Americas",
+            "materialVolume": "1000",
+            "materiaInventory": "163",
+            "CAGRGrowth%": "30%"
+        },
+        {
+            "fgCode": "PYL5010002",
+            "FGItemDescription": "Face SCRUB 50ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010073",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "Americas",
+            "materialVolume": "1020",
+            "materiaInventory": "143",
+            "CAGRGrowth%": "31%"
+        },
+        {
+            "fgCode": "PYL5010003",
+            "FGItemDescription": "Face Serum 50ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010074",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "Japan",
+            "materialVolume": "1021",
+            "materiaInventory": "123",
+            "CAGRGrowth%": "33%"
+        },
+        {
+            "fgCode": "PYL5010004",
+            "FGItemDescription": "Face Mask 50ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010075",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "UK",
+            "materialVolume": "1022",
+            "materiaInventory": "124",
+            "CAGRGrowth%": "35%"
+        },
+        {
+            "fgCode": "PYL5010005",
+            "FGItemDescription": "Hair Cream 34ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010076",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "France",
+            "materialVolume": "1023",
+            "materiaInventory": "124",
+            "CAGRGrowth%": "36%"
+        },
+        {
+            "fgCode": "PYL5010006",
+            "FGItemDescription": "Hair Mask 100ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010076",
+            "materialName": "CAP",
+            "materialGroup": "Jars Plastic",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "North America",
+            "materialVolume": "1024",
+            "materiaInventory": "154",
+            "CAGRGrowth%": "38%"
+        },
+        {
+            "fgCode": "PYL5010008",
+            "FGItemDescription": "Hair Color 100ML/1.7FLOZ",
+            "fgBrand": "Mac",
+            "materialCode": "SYCF8010079",
+            "materialName": "CAP",
+            "materialGroup": "Bottle",
+            "supplierName": "Multi Packaging Sol.",
+            "supplierRegion": "North America",
+            "materialVolume": "200",
+            "materiaInventory": "250",
+            "CAGRGrowth%": "58%"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+@import "../../../style/variable.scss";
+
+.sufficiency-responsiveness-container {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  background: $standard-font-color-bold;
+  font-family: $font-family-nato-sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.125rem;
+  padding-left: 5rem;
+  color: $nav-text-grey-color !important;
+  border-bottom: 2px solid #e7f0ff;
+  box-shadow: inset 0px 0px 11px rgba(158, 180, 255, 0.3);
+
+  .ant-tabs-tab {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+
+  #sufficiency-tabs,
+  #responsiveness-tabs #sufficiency-tabs:hover,
+  #responsiveness-tabs:hover {
+    border: none;
+  }
+
+  #responsiveness-tabs-tab-leadTime_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  #responsiveness-tabs-tab-regionalization_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  #sufficiency-tabs-tab-e2e_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  #sufficiency-tabs-tab-source_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  #sufficiency-tabs-tab-make_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  #sufficiency-tabs-tab-fulfill_tab {
+    color: $nav-text-grey-color;
+    font-weight: 500;
+    font-size: 1.125rem;
+  }
+
+  .ant-tabs-tab-active {
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.125rem;
+    color: $nav-text-color-active;
+    border-bottom: 4px solid $nav-text-color-active;
+
+    #sufficiency-tabs-tab-e2e_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active !important;
+    }
+
+    #sufficiency-tabs-tab-source_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active;
+    }
+
+    #sufficiency-tabs-tab-make_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active;
+    }
+
+    #sufficiency-tabs-tab-fulfill_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active;
+    }
+
+    #responsiveness-tabs-tab-regionalization_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active;
+    }
+
+    #responsiveness-tabs-tab-leadTime_tab {
+      font-weight: 800;
+      font-size: 1.125rem;
+      color: $nav-text-color-active;
+    }
+  }
+
+  .ant-tabs-ink-bar {
+    background-color: transparent;
+  }
+}

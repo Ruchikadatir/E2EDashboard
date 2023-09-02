@@ -1,0 +1,47 @@
+@import "../../style/variable.scss";
+
+.demand-scenario-container {
+    width: 100%;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    background: $estee-secondary-header-color;
+    border-top: 2px solid $estee-secondary-header-color;
+    box-shadow: inset 0px 0px 11px rgba(158, 180, 255, 0.3);
+    .x-axis {
+        font-family: $font-family-nato-sans-bold !important;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 50%;
+        /* identical to box height, or 114% */
+        display: flex;
+        color: #0b228d !important;
+      }
+
+      .strategyDemandcard {
+        .y-axisTitle {
+            top:230px;
+        }
+      }
+    .grid-card {
+        .ant-card-body {
+            padding: 0px !important;
+        }
+    }
+
+    .ag-theme-alpine {
+        --ag-borders: none;
+        --ag-header-foreground-color: $standard-font-color-bold;
+        --ag-header-background-color: rgba(147, 173, 178, 0.14);
+        --ag-borders-row: 1px solid;
+        --ag-row-border-color: #e4e6e7;
+    }
+
+    .filter-container {
+        margin-top: 1.5rem;
+        z-index: 1;
+      }
+
+    
+}

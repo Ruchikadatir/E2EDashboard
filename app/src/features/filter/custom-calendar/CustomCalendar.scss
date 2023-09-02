@@ -1,0 +1,56 @@
+@import "../../style/variable.scss";
+
+.calendar-title {
+    font-family: $font-family-open-sans !important;
+    text-align: center !important;
+    color: #09208C !important;
+    margin-bottom: 28%;
+}
+
+.calendar-container {
+
+    .ant-radio-group {
+        margin: 28% !important;
+    }
+
+    .css-1gjgmky-MuiButtonBase-root-MuiToggleButton-root {
+        font-family: $font-family-open-sans !important;
+        border: none !important;
+        color: none !important;
+        padding: 4rem !important;
+    }
+
+    .css-ueukts-MuiButtonBase-root-MuiToggleButton-root {
+        font-family: $font-family-open-sans !important;
+        border: none !important;
+        color: none !important;
+    }
+
+    .css-1dlyelz-MuiButtonBase-root-MuiToggleButton-root.Mui-selected {
+
+        font-family: $font-family-open-sans !important;
+        text-align: center !important;
+        color: #09208C !important;
+    }
+
+    .css-1dlyelz-MuiButtonBase-root-MuiToggleButton-root {
+        margin-right: 1.5rem !important;
+        text-transform: none !important;
+    }
+
+}
+
+.spacing-quater {
+    margin-right: 7%;
+}
+
+.modal-container {
+    .ant-modal-content {
+        background: $estee-secondary-header-color;
+        border: 0.5px solid #AECDFB;
+        position: relative;
+        top: 10rem;
+        right: 30%;
+        border-radius: 8px;
+    }
+}

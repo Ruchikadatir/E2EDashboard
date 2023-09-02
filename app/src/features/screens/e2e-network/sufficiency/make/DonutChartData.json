@@ -1,0 +1,36 @@
+{
+    "regionalMix": [
+        {
+            "category": "Europe",
+            "quantity": 45000
+        },
+        {
+            "category": "America",
+            "quantity": 20000
+        },
+        {
+            "category": "APAC",
+            "quantity": 80000
+        }
+    ],
+    "i_e": [
+        {
+            "category": "internal",
+            "quantity": 40
+        },
+        {
+            "category": "external",
+            "quantity": 60
+        }
+    ],
+    "promoMix": [
+        {
+            "category": "saleable",
+            "quantity": 40
+        },
+        {
+            "category": "promo",
+            "quantity": 60
+        }
+    ]
+}

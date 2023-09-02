@@ -1,0 +1,45 @@
+{
+   "Major Category": ["Skincare", "Fragrance", "Makeup", "Other"],
+  "Category": ["All Other Eye Treatment"],
+  "SubCategory": [
+    "After Shave",
+    "All Other Eye Treatment",
+    "Parfum / Perfume",
+    "All Cross Category Sets",
+    "All Makeup Remover",
+    "All Other Face",
+    "Moisturizers"
+  ],
+  "Priority Subcategory": ["All Other Eye Treatment"],
+  "Brand": ["Estee Lauder", "Clinique", "Bobbi Brown", "Clinique for men"],
+  "Division": ["Estee Lauder", "Clinique", "Bobbi Brown"],
+
+  "Item4": ["PYL5", "7418", "Z01N", "7K12"],
+  "Item6": ["PYL501", "741801", "7K1280"],
+  "Item9": ["PYL501000", "741801049", "7K1280000"],
+  "Item Description": ["PYL501000", "741801049", "7K1280000"],
+  "Product line": [
+    "Advanced Night Repair",
+    "Classics",
+    "Moisture Surge",
+    "Take The Day Off"
+  ],
+  "Sub Product Line": [
+    "All Advanced Night Repair",
+    "Private Collection",
+    "Moisture Surge Extended",
+    "TTDO Lids Lashes Lips"
+  ],
+  "Hero": ["X"],
+  "Set Indicator": ["Yes", "No"],
+  "Size": ["20", "100", "50"],
+  "Product form": ["london", "new york", "bangalore"],
+
+  "Major Inventory Type": ["Promotional", "Saleable"],
+  "Sub Inventory Type": ["Standard Saleable", "Tester", "All Other Samples"],
+  "ABCD": ["0", "A", "B", "C", "D"],
+
+  "Demand Type": ["CN", "LL", "RL"],
+  "New Basic": ["cosmetics", "repair"],
+  "Sales Region": ["US", "Uk", "India"]
+}

@@ -1,0 +1,18 @@
+{
+  "statusCode": 200,
+  "message": "Success: geomap KPI information",
+  "data": {
+    "source": {
+      "component": 100,
+      "ingredient": 200
+    },
+    "make": {
+      "fAndaProduction": 300,
+      "compounding": 200
+    },
+    "fulfill": {
+      "sellInUnits": 300,
+      "sellInReq": 400
+    }
+  }
+}

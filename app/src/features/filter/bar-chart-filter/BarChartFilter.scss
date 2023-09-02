@@ -1,0 +1,44 @@
+@import "../../style/variable.scss";
+
+
+
+.clearFilterButton {
+    background-color: #09208C !important;
+    box-shadow: 2px 3px 7px -4px #3854EB !important;
+
+}
+
+.clearButtonText {
+    color: #B7B7B7;
+    font-family: $font-family-nato-sans  !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.applyFilterButton {
+    background-color: #09208C !important;
+    box-shadow: 2px 3px 7px -4px #3854EB !important;
+    
+
+}
+
+.applyButtonText {
+    color: #FFFFFF;
+    font-family: $font-family-nato-sans  !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.filterTitle {
+    font-family: $font-family-nato-sans  !important;
+    font-style: normal;
+    font-weight: 400;
+    color: #393939;
+    line-height: 24px;
+
+}
+

@@ -1,0 +1,109 @@
+@import "../../../style/variable.scss";
+
+.growth-reconciliation {
+  height: 464px !important;
+
+  .ag-theme-alpine {
+    --ag-header-height: 50px !important;
+    --ag-row-height: 50px !important;
+    --ag-header-cell-hover-background-color: #d0e3fe;
+    --ag-borders: none;
+    --ag-borders-row: 2px solid !important;
+    --ag-row-border-color: $standard-font-color-bold !important;
+  }
+
+  .ag-header-group-cell-label {
+    font-family: $font-family-nato-sans-bold;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $font-size-large;
+    text-align: center;
+    color: #0d1640;
+  }
+
+  .ag-header-row {
+    .ag-header-cell {
+      border-right: 3px solid $standard-font-color-bold;
+    }
+  }
+
+  .ag-header-row-column-group>div:nth-child(1) {
+    background-color: #ffffff !important;
+  }
+
+  .ag-header-group-cell-with-group {
+    background: #d0e3fe !important;
+    margin-right: 1px;
+    border-right: 3px solid $standard-font-color-bold;
+  }
+
+  .ag-cell-label-container {
+    font-family: $font-family-nato-sans-bold;
+    font-style: normal;
+    text-align: center;
+    font-weight: 700;
+    font-size: $font-size-medium !important;
+    color: #0d1640;
+    line-height: 16px;
+    white-space: break-spaces;
+  }
+
+  .ag-cell-value {
+    font-family: $font-family-nato-sans-medium;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-size-medium !important;
+    text-align: center;
+    color: #0d1640;
+    background: $standard-font-color-bold;
+    border-left: 2px solid $standard-font-color-bold;
+    border-right: 2px solid $standard-font-color-bold;
+    border-top: 2px solid $standard-font-color-bold;
+  }
+
+  .ag-header-cell {
+    background-color: #f6f7fa;
+  }
+
+  .ag-header-cell:first-child {
+    background-color: #d0e3fe;
+  }
+
+  .ag-header-cell:hover {
+    background-color: #f6f7fa !important;
+  }
+
+  .ag-header-cell:first-child:hover {
+    background-color: #d0e3fe !important;
+  }
+
+  .ag-header-row-column {
+    background-color: $standard-font-color-bold;
+    border: none;
+  }
+
+  .ag-header-viewport {
+    background: $standard-font-color-bold;
+  }
+
+  .region-header {
+    font-family: $font-family-nato-sans-bold !important;
+    font-style: normal;
+    font-weight: 700 !important;
+    font-size: $font-size-medium !important;
+    color: #0d1640 !important;
+  }
+
+  .ag-row-last {
+    .ag-cell-value {
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 700 !important;
+      font-size: $font-size-medium !important;
+      color: #0d1640 !important;
+      background: rgba(213, 230, 255, 0.5) !important;
+      border: none !important;
+      border-radius: 0px 0px 4px 4px !important;
+    }
+  }
+}

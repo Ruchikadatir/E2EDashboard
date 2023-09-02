@@ -1,0 +1,38 @@
+@import "../style/variable.scss";
+
+@mixin box($color, $borderColor) {
+  color: $color;
+  background-color: $color;
+  border: 1px solid $borderColor;
+}
+
+.nodecolorBox {
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  margin-bottom: -3px;
+  border-radius: 4px;
+  @include box(var(--color), var(--borderColor));
+}
+
+.nodeLeadTimeLegend {
+  border-radius: 4px;
+  background: #f6f9ff;
+  border: 1px solid #aecdfb;
+  padding-left: 19px;
+  width: 12vw;
+  height: 58px;
+  margin-left: 2.5rem;
+
+}
+
+.legendSpan {
+  font-family: $font-family-nato-sans-medium;
+  font-size: 0.75rem;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-left: 0.25rem;
+  padding-bottom: -1rem;
+}

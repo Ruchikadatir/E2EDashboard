@@ -1,0 +1,104 @@
+{
+    "makeIng": [
+        {
+            "region": "Americas",
+            "americas": 34000,
+            "europe": 34000,
+            "asia": 340000
+        },
+        {
+            "region": "Europe",
+            "americas": 34000,
+            "europe": 32000,
+            "asia": 330000
+        },
+        {
+            "region": "Asia",
+            "americas": 34000,
+            "europe": 32000,
+            "asia": 330000
+        }
+    ],
+    "makeCompoent": [
+        {
+            "region": "Americas",
+            "americas": 34000,
+            "europe": 34000,
+            "asia": 340000
+        },
+        {
+            "region": "Europe",
+            "americas": 34000,
+            "europe": 32000,
+            "asia": 330000
+        },
+        {
+            "region": "Asia",
+            "americas": 34000,
+            "europe": 32000,
+            "asia": 330000
+        }
+    ],
+    "salesRegion": {
+        "all": [
+            {
+                "region": "Americas",
+                "americas": 36000,
+                "europe": 37000,
+                "asia": 380000
+            },
+            {
+                "region": "Europe",
+                "americas": 4000,
+                "europe": 2000,
+                "asia": 30000
+            },
+            {
+                "region": "Asia",
+                "americas": 4020,
+                "europe": 4500,
+                "asia": 30000
+            }
+        ],
+        "halb": [
+            {
+                "region": "Americas",
+                "americas": 30,
+                "europe": 60,
+                "asia": 50
+            },
+            {
+                "region": "Europe",
+                "americas": 4000,
+                "europe": 2000,
+                "asia": 30000
+            },
+            {
+                "region": "Asia",
+                "americas": 4020,
+                "europe": 4500,
+                "asia": 30000
+            }
+        ],
+        "fert": [
+            {
+                "region": "Americas",
+                "americas": 36000,
+                "europe": 37000,
+                "asia": 380000
+            },
+            {
+                "region": "Europe",
+                "americas": 4000,
+                "europe": 2000,
+                "asia": 30000
+            },
+            {
+                "region": "Asia",
+                "americas": 4020,
+                "europe": 4500,
+                "asia": 30000
+            }
+        ]
+    }
+}

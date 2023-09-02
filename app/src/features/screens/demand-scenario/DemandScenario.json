@@ -1,0 +1,63 @@
+{
+    "strategicDemandGraphData": {
+        "units": {
+            "year": [
+                "FY22",
+                "FY23",
+                "FY24",
+                "FY25"
+            ],
+            "Actual Shipments": [
+                1,
+                null,
+                null
+            ],
+            "Brand Ambition ": [
+                null,
+                2,
+                3,
+                4
+            ],
+            "CDP": [
+                null,
+                2,
+                3,
+                4
+            ],
+            "cagr": [
+                1,
+                2,
+                3,
+                4
+            ]
+        },
+        "revenue": {
+            "year": [
+                "FY22",
+                "FY23",
+                "FY24",
+                "FY25"
+            ],
+            "Actual Shipments": [
+                1,
+                null,
+                null
+            ],
+            "Brand Ambition ": [
+                null,
+                2,
+                3
+            ],
+            "CDP": [
+                null,
+                2,
+                3
+            ],
+            "cagr": [
+                1,
+                2,
+                3
+            ]
+        }
+    }
+}

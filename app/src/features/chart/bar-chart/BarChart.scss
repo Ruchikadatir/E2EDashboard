@@ -1,0 +1,243 @@
+@import "../../../features/style/variable.scss";
+
+.barChart-container {
+  padding: 0.1rem;
+  z-index: 1;
+
+  .MuiTypography-body1 {
+    font-family: $font-family-nato-sans-medium !important;
+    font-style: normal;
+    font-weight: 400;
+    font-size: $font-size-medium;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+    /* Character/Title .85 */
+    color: rgba(0, 0, 0, 0.85);
+
+  }
+
+  .iconstyle {
+    width: 2rem;
+    height: 2rem;
+  }
+
+
+  .barchart-YAXIS-toggle-btn {
+    transform: rotate(-90deg) !important;
+    width: 25% !important;
+    height: 4% !important;
+    z-index: 2;
+    position: relative;
+    top: 45px;
+    right: 13%;
+    text-transform: capitalize !important;
+
+    /* identical to box height, or 114% */
+    button[aria-pressed="true"] {
+      text-transform: capitalize !important;
+      padding: 8px;
+      gap: 10px;
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $font-size-medium;
+      color: #09208c !important;
+      background: #EAF1FF;
+      border: 1px solid #aecdfb !important;
+      border-radius: 4px;
+    }
+
+    button[aria-pressed="false"] {
+      text-transform: capitalize !important;
+      padding: 8px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      border: none !important;
+      font-family: $font-family-nato-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $font-size-medium;
+      line-height: 16px;
+      /* identical to box height, or 114% */
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: rgba(13, 22, 64, 0.4);
+    }
+
+  }
+
+  .barchart-XAXIS-toggle-btn {
+    height: 32px !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    z-index: 2;
+    position: relative;
+
+    /* identical to box height, or 114% */
+    button[aria-pressed="true"] {
+      padding: 8px;
+      gap: 10px;
+      text-transform: capitalize !important;
+      font-family: $font-family-nato-sans-bold !important;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $font-size-medium;
+      color: #09208c !important;
+      background: #EAF1FF;
+      border: 1px solid #aecdfb !important;
+      border-radius: 4px;
+    }
+
+    button[aria-pressed="false"] {
+      display: flex;
+      flex-direction: row;
+      align-items: flex-start;
+      text-transform: capitalize !important;
+      padding: 8px;
+      gap: 10px;
+      border: none !important;
+      font-family: $font-family-nato-sans;
+      font-style: normal;
+      font-weight: 700;
+      font-size: $font-size-medium;
+      line-height: 16px;
+      /* identical to box height, or 114% */
+
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: rgba(13, 22, 64, 0.4);
+    }
+
+  }
+
+  input[type="radio"] {
+    z-index: 4 !important;
+  }
+}
+
+.spacing {
+  padding: 1rem;
+}
+
+.row-space {
+  padding: 1rem;
+}
+
+
+.graph-title {
+  font-family: $font-family-optima;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  padding-top: 0.5rem;
+  padding-bottom: 00.5rem;
+  color: $nav-text-color;
+}
+
+.downloadButton {
+  padding-bottom: 1.5rem;
+}
+
+.PMR-yAxis {
+  text-transform: capitalize !important;
+  transform: rotate(-90deg) !important;
+  width: 35% !important;
+  height: 5% !important;
+  z-index: 2;
+  position: relative;
+  top: 118px;
+  right: 13%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+
+  /* identical to box height, or 114% */
+  button[aria-pressed="true"] {
+    padding: 8px;
+    gap: 10px;
+    font-family: $font-family-nato-sans-bold !important;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $font-size-medium;
+    color: #09208c !important;
+    background: #EAF1FF;
+    border: 1px solid #aecdfb !important;
+    border-radius: 4px;
+  }
+
+  button[aria-pressed="false"] {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+    border: none !important;
+    font-family: $font-family-nato-sans;
+    font-style: normal;
+    font-weight: 700;
+    font-size: $font-size-medium;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(13, 22, 64, 0.4);
+  }
+}
+
+.y-axisTitle {
+  font-family: $font-family-nato-sans-bold !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size-small;
+  /* identical to box height, or 114% */
+  color: #0b228d !important;
+  transform: rotate(-90deg);
+  z-index: 2 !important;
+  position: relative;
+  top: 180px;
+}
+
+.x-axisTitle {
+  font-family: $font-family-nato-sans-bold !important;
+  font-style: normal;
+  font-weight: 700;
+  font-size: $font-size-medium !important;
+  line-height: 16px;
+  /* identical to box height, or 114% */
+  display: flex;
+  margin-top: -2px;
+  color: #0b228d !important;
+}
+
+.sortDataTitle {
+  font-family: $font-family-nato-sans-medium !important;
+  font-style: normal;
+  font-weight: 400;
+  font-size: $font-size-xsmall;
+  margin-right: 0.5rem;
+  color: #0D1640;
+}
+
+
+.dropdown-size {
+  width: 80px;
+  height: 30px;
+  z-index: 2;
+}
+
+@font-face {
+  font-family: "noto-sans-light";
+  font-style: normal;
+  font-weight: 400;
+  background: #0d1640cc;
+  src: url(../../../assets/noto_sans/NotoSans-Light.ttf);
+}

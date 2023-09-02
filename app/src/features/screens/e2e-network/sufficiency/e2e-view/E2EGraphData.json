@@ -1,0 +1,292 @@
+{
+  "sourceGraphData": {
+    "ingredients": {
+      "big5": {
+        "materialGroup": ["A", "B", "C"],
+        "FY2023": [1, 2, 3],
+        "FY2025": [1, 2, 3],
+        "cagr": [1, 2, 3]
+      },
+      "fast5": {
+        "materialGroup": ["e", "f", "g"],
+        "FY2023": [1, 2, 7],
+        "FY2025": [10, 12, 3],
+        "cagr": [1, 2, 3]
+      },
+      "all": {
+        "materialGroup": ["i", "j", "k"],
+        "FY2023": [1, 2, 7],
+        "FY2025": [10, 12, 3],
+        "cagr": [1, 2, 3]
+      }
+    },
+    "components": {
+      "big5": {
+        "materialGroup": ["e", "g", "h"],
+        "FY2023": [5, 6, 7],
+        "FY2025": [1, 2, 3],
+        "cagr": [1, 2, 3]
+      },
+      "fast5": {},
+      "all": {}
+    }
+  },
+  "makeGraphData": {
+    "compounding": {
+      "big5": {
+        "platform": {
+          "platform": ["A", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["e", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "fast5": {
+        "platform": {
+          "platform": ["X", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["D", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "all": {
+        "platform": {
+          "platform": ["O", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["K", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      }
+    },
+    "fill": {
+      "big5": {
+        "platform": {
+          "platform": ["A", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["e", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "fast5": {
+        "platform": {
+          "platform": ["X", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["D", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "all": {
+        "platform": {
+          "platform": ["O", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["K", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      }
+    },
+    "assembly": {
+      "big5": {
+        "platform": {
+          "platform": ["A", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["e", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "fast5": {
+        "platform": {
+          "platform": ["X", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["D", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      },
+      "all": {
+        "platform": {
+          "platform": ["O", "B", "C"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        },
+        "plant": {
+          "plant": ["K", "f", "g"],
+          "FY2023": [1, 2, 3],
+          "FY2025": [1, 2, 3],
+          "cagr": [1, 2, 3]
+        }
+      }
+      
+    }
+  },
+
+  "fulfillGraphData": {
+    "region": ["A", "B", "C"],
+    "FY2023": [1, 2, 3],
+    "FY2025": [1, 2, 3],
+    "cagr": [1, 2, 3]
+  },
+  "revenueGrowthGraphData": {
+    "category": {
+      "quarterly": {
+        "quarters": [
+          "FY2023Q1",
+          "FY2024Q1",
+          "FY2025Q2",
+          "FY2026Q3",
+          "FY2027Q1"
+        ],
+        "skincare": [9000, 12000, 14000, 15000, 19000, 19800],
+        "makeup": [9400, 17000, 14000, 15000, 19000, 19800],
+        "fragrance": [100, 170, 180, 160, 190, 198],
+        "haircare": [400, 467, 635, 242, 567, 566],
+        "others": [1233, 1344, 1390, 4672, 5768, 6477]
+      },
+      "yearly": {
+        "years": ["FY2023", "FY2024", "FY2025", "FY2026", "FY2027"],
+        "skincare": [9000, 12000, 14000, 15000, 19000, 19800],
+        "makeup": [9400, 17000, 14000, 15000, 19000, 19800],
+        "fragrance": [100, 170, 180, 160, 190, 198],
+        "haircare": [400, 467, 635, 242, 567, 566],
+        "others": [1233, 1344, 1390, 4672, 5768, 6477]
+      }
+    },
+    "total": {
+      "quarterly": {
+        "quarters": [
+          "FY2023Q1",
+          "FY2024Q1",
+          "FY2025Q2",
+          "FY2026Q3",
+          "FY2027Q1"
+        ],
+        "total": [9000, 12000, 14000, 15000, 19000, 19800]
+      },
+      "yearly": {
+        "years": ["FY2023", "FY2024", "FY2025", "FY2026", "FY2027"],
+        "total": [9000, 12000, 14000, 15000, 19000, 19800]
+      }
+    }
+  },
+  "inventoryByNodeGraphData": {
+    "all": {
+      "inventoryUnits": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      },
+      "inventory$": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      }
+    },
+    "internalMfg": {
+      "inventoryUnits": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      },
+      "inventory$": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      }
+    },
+    "tpm": {
+      "inventoryUnits": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      },
+      "inventory$": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      }
+    },
+    "dc": {
+      "inventoryUnits": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      },
+      "inventory$": {
+        "locationType": ["Whitemen UK", "Alden"],
+        "component": [1, 2],
+        "finishedGoods": [1, 2],
+        "mfgMass": [1, 2],
+        "ingredients": [1, 2],
+        "wip": [1, 2]
+      }
+    }
+  }
+}

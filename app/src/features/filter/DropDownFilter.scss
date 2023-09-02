@@ -1,0 +1,47 @@
+@import "../style/variable.scss";
+
+.alignLabel {
+    min-width: 150px !important;
+}
+.dropdown-container
+{
+    .ant-select-multiple {
+      .ant-select-selection-item {
+          font-family:  $font-family-nato-sans  !important;
+          font-style: italic;
+          font-weight: 400;
+          font-size: 12px;
+          font-weight: 400;
+          color: #393939;
+          background: #EFF5FE !important;
+  
+          mix-blend-mode: multiply;
+          backdrop-filter: blur(50px);
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 10px;
+      }
+  }
+  
+  .ant-select-selector {
+      font-family:  $font-family-nato-sans  !important;
+      font-style: italic;
+      font-weight: 400;
+      font-size: 12px;
+      font-weight: 400;
+      /* Note: backdrop-filter has minimal browser support */
+      border-radius: 10px;
+  }
+  
+  .ant-select-single {
+      .ant-select-selection-item {
+          font-family:  $font-family-nato-sans  !important;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 12px;
+          font-weight: 400;
+          background: #FFFFFF !important;
+          /* Note: backdrop-filter has minimal browser support */
+          border-radius: 10px;
+      }
+  
+  }}
